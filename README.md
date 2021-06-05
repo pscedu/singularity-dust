@@ -1,4 +1,6 @@
 # singularity-dust
+![Example](https://github.com/bootandy/dust/raw/master/media/snap.png)
+
 Singularity recipe for [dust](https://github.com/bootandy/dust).
 
 ## Installing the container on Bridges 2
@@ -9,7 +11,7 @@ Copy the
 
 to `/opt/packages/dust/0.5.4`.
 
-Copy the file `modulefile.lua` to `/opt/modules/dust` as `0.5.4`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/dust` as `0.5.4`.
 
 ## Building the image using the recipe
 
