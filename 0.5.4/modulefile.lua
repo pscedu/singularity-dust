@@ -1,9 +1,9 @@
 --
--- chalk-cli 4.1.0 modulefile
+-- dust 0.5.4 modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Other"
--- "Description: Terminal string styling done right."
+-- "Description: du + rust = dust. Like du but more intuitive."
 
 
 whatis("Name: dust")
