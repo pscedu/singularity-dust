@@ -5,7 +5,6 @@
 -- "Category: Other"
 -- "Description: du + rust = dust. Like du but more intuitive."
 
-
 whatis("Name: dust")
 whatis("Version: 0.5.4")
 whatis("Category: Other")
