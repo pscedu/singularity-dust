@@ -6,9 +6,3 @@ From: rust:slim-buster
     MAINTAINER icaoberg@psc.edu
     WEBSITE https://github.com/icaoberg/singularity-dust
     VERSION 0.5.4
-
-%post
-    cargo install du-dust
-    ln -s /usr/local/cargo/bin/dust /usr/local/bin/dust
-
-####################################################################################
