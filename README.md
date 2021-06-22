@@ -1,3 +1,9 @@
+![Status](https://github.com/icaoberg/singularity-dust/actions/workflows/main.yml/badge.svg)
+![Issue](https://img.shields.io/github/issues/icaoberg/singularity-dust)
+![forks](https://img.shields.io/github/forks/icaoberg/singularity-dust)
+![Stars](https://img.shields.io/github/stars/icaoberg/singularity-dust)
+![License](https://img.shields.io/github/license/icaoberg/singularity-dust)
+
 # singularity-dust
 ![Example](https://github.com/bootandy/dust/raw/master/media/snap.png)
 
@@ -16,14 +22,14 @@ Copy the file `modulefile.lua` to `/opt/modulefiles/dust` as `0.5.4`.
 ## Building the image using the recipe
 
 ### To build the image locally
-Run the script `build.sh` to build image locally
+Run the script `build.sh` to build image locally.
 
 ```
 bash ./build.sh
 ````
 
 ### To build the image remotely
-Run the script `rbuild.sh` to build image remotely
+Run the script `rbuild.sh` to build image remotely.
 
 ```
 bash ./rbuild.sh
