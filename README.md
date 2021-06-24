@@ -17,7 +17,7 @@ Copy the
 
 to `/opt/packages/dust/0.5.4`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/dust` as `0.5.4`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/dust` as `0.5.4.lua`.
 
 ## Building the image using the recipe
 
