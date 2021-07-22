@@ -4,6 +4,7 @@
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Other"
 -- "Description: du + rust = dust. Like du but more intuitive."
+-- "Keywords: singularity utilities"
 
 whatis("Name: dust")
 whatis("Version: 0.5.4")
