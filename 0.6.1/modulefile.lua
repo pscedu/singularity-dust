@@ -1,5 +1,5 @@
 --
--- dust 0.5.4 modulefile
+-- dust 0.6.1 modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Other"
@@ -7,31 +7,26 @@
 -- "Keywords: singularity utilities"
 
 whatis("Name: dust")
-whatis("Version: 0.5.4")
+whatis("Version: 0.6.1")
 whatis("Category: Other")
 whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: du + rust = dust. Like du but more intuitive.")
 
 help([[
-dust 0.5.4
------------
-  
-Description
------------
 du + rust = dust. Like du but more intuitive.
-  
+
 To load the module type
 
-> module load dust/0.5.4
+> module load dust/0.6.1
 
 To unload the module type
 
-> module unload dust/0.5.4
+> module unload dust/0.6.1
 
 Documentation
 -------------
 For help, type
-  
+
 > dust --help
 
 Repository
@@ -41,6 +36,6 @@ Tools included in this module are
 ]])
 
 local package = "dust"
-local version = "0.5.4"
+local version = "0.6.1"
 local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)

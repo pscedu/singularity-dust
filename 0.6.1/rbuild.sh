@@ -4,7 +4,7 @@
 # All Rights Reserved.
 
 PACKAGE=dust
-VERSION=0.5.4
+VERSION=0.6.1
 IMAGE=singularity-$PACKAGE-$VERSION.sif
 DEFINITION=Singularity
 
