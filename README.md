@@ -18,7 +18,7 @@ Copy the
 
 to `/opt/packages/dust/0.5.4`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/dust` as `0.5.4.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/dust` as `0.8.4.lua`.
 
 ## Building the image using the recipe
 
@@ -44,6 +44,6 @@ bash ./test.sh
 ```
 
 ---
-Copyright © 2020-2022 Pittsburgh Supercomputing Center. All Rights Reserved.
+Copyright © 2020-2023 Pittsburgh Supercomputing Center. All Rights Reserved.
 
 [icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
