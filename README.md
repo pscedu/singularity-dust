@@ -16,9 +16,9 @@ Copy the
 * `SIF` file
 * and the `dust` script
 
-to `/opt/packages/dust/0.5.4`.
+to `/opt/packages/dust/0.8.6`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/dust` as `0.8.4.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/dust` as `0.8.6.lua`.
 
 ## Building the image using the recipe
 
