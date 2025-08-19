@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: rust:1.79-slim-buster
+From: rust:slim-buster
 
 %labels
     MAINTAINER icaoberg
@@ -9,5 +9,10 @@ From: rust:1.79-slim-buster
     VERSION 0.8.6
 
 %post
+    rustup toolchain install 1.80.0
+    rustup default 1.80.0
     cargo install --version 0.8.6 du-dust
     ln -s /usr/local/cargo/bin/dust /usr/local/bin/dust
+
+%runscript
+    dust "$@"
